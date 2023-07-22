@@ -1,3 +1,10 @@
+#BUILD IT
+sudo docker build -t mywebapp . 
+sudo docker run --rm -it -p 8888:8080 mywebapp
+
+
+
+
 # What is JSP ?
 JSP- Java Server pages is the technology which helps the user to create static and dynamic web content. Basically a file with .jsp extension.
 In a sentence we can say – writing java code inside html file.
